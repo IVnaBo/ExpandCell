@@ -15,6 +15,11 @@
 		C0BAE9451E5D7102003D7C1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BAE9431E5D7102003D7C1D /* LaunchScreen.storyboard */; };
 		C0BAE9501E5D7102003D7C1D /* ExpandCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BAE94F1E5D7102003D7C1D /* ExpandCellTests.m */; };
 		C0BAE95B1E5D7102003D7C1D /* ExpandCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BAE95A1E5D7102003D7C1D /* ExpandCellUITests.m */; };
+		C0BAE9691E5D7134003D7C1D /* problemCenter.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0BAE9681E5D7134003D7C1D /* problemCenter.plist */; };
+		C0BAE9721E5D790C003D7C1D /* HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BAE9711E5D790C003D7C1D /* HeadView.m */; };
+		C0BAE9751E5D7951003D7C1D /* ProblemTitleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BAE9741E5D7951003D7C1D /* ProblemTitleModel.m */; };
+		C0BAE9791E5D8294003D7C1D /* ExpTabviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BAE9771E5D8294003D7C1D /* ExpTabviewCell.m */; };
+		C0BAE97A1E5D8294003D7C1D /* ExpTabviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0BAE9781E5D8294003D7C1D /* ExpTabviewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		C0BAE9561E5D7102003D7C1D /* ExpandCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpandCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BAE95A1E5D7102003D7C1D /* ExpandCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpandCellUITests.m; sourceTree = "<group>"; };
 		C0BAE95C1E5D7102003D7C1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0BAE9681E5D7134003D7C1D /* problemCenter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = problemCenter.plist; sourceTree = "<group>"; };
+		C0BAE9701E5D790C003D7C1D /* HeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadView.h; sourceTree = "<group>"; };
+		C0BAE9711E5D790C003D7C1D /* HeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadView.m; sourceTree = "<group>"; };
+		C0BAE9731E5D7951003D7C1D /* ProblemTitleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProblemTitleModel.h; sourceTree = "<group>"; };
+		C0BAE9741E5D7951003D7C1D /* ProblemTitleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProblemTitleModel.m; sourceTree = "<group>"; };
+		C0BAE9761E5D8294003D7C1D /* ExpTabviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpTabviewCell.h; sourceTree = "<group>"; };
+		C0BAE9771E5D8294003D7C1D /* ExpTabviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpTabviewCell.m; sourceTree = "<group>"; };
+		C0BAE9781E5D8294003D7C1D /* ExpTabviewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpTabviewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +114,20 @@
 		C0BAE9341E5D7102003D7C1D /* ExpandCell */ = {
 			isa = PBXGroup;
 			children = (
+				C0BAE9701E5D790C003D7C1D /* HeadView.h */,
+				C0BAE9711E5D790C003D7C1D /* HeadView.m */,
+				C0BAE9731E5D7951003D7C1D /* ProblemTitleModel.h */,
+				C0BAE9741E5D7951003D7C1D /* ProblemTitleModel.m */,
 				C0BAE9381E5D7102003D7C1D /* AppDelegate.h */,
 				C0BAE9391E5D7102003D7C1D /* AppDelegate.m */,
 				C0BAE93B1E5D7102003D7C1D /* ViewController.h */,
 				C0BAE93C1E5D7102003D7C1D /* ViewController.m */,
+				C0BAE9761E5D8294003D7C1D /* ExpTabviewCell.h */,
+				C0BAE9771E5D8294003D7C1D /* ExpTabviewCell.m */,
+				C0BAE9781E5D8294003D7C1D /* ExpTabviewCell.xib */,
 				C0BAE93E1E5D7102003D7C1D /* Main.storyboard */,
 				C0BAE9411E5D7102003D7C1D /* Assets.xcassets */,
+				C0BAE9681E5D7134003D7C1D /* problemCenter.plist */,
 				C0BAE9431E5D7102003D7C1D /* LaunchScreen.storyboard */,
 				C0BAE9461E5D7102003D7C1D /* Info.plist */,
 				C0BAE9351E5D7102003D7C1D /* Supporting Files */,
@@ -249,9 +270,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0BAE97A1E5D8294003D7C1D /* ExpTabviewCell.xib in Resources */,
 				C0BAE9451E5D7102003D7C1D /* LaunchScreen.storyboard in Resources */,
 				C0BAE9421E5D7102003D7C1D /* Assets.xcassets in Resources */,
 				C0BAE9401E5D7102003D7C1D /* Main.storyboard in Resources */,
+				C0BAE9691E5D7134003D7C1D /* problemCenter.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +299,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0BAE9791E5D8294003D7C1D /* ExpTabviewCell.m in Sources */,
 				C0BAE93D1E5D7102003D7C1D /* ViewController.m in Sources */,
+				C0BAE9751E5D7951003D7C1D /* ProblemTitleModel.m in Sources */,
 				C0BAE93A1E5D7102003D7C1D /* AppDelegate.m in Sources */,
+				C0BAE9721E5D790C003D7C1D /* HeadView.m in Sources */,
 				C0BAE9371E5D7102003D7C1D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
